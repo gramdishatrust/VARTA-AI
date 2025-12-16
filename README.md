@@ -77,7 +77,20 @@ Copy and paste it into your script
 2. Select GPU in Colab
    <img width="838" height="784" alt="image" src="https://github.com/user-attachments/assets/8c8b5c2a-6f19-433a-9446-677a33412963" />
 
-4. 
+3. Upload Initial Dataset
+   Upload the initial file to Colab File Upload [nf_datasett.jsonl] (nf_datasett.jsonl)
+   <img width="579" height="745" alt="image" src="https://github.com/user-attachments/assets/edf7e930-951e-4ebc-8c9c-540db631b414" />
+
+4. Enable Gated Access to Models on Huggingface
+   <img width="1465" height="983" alt="image" src="https://github.com/user-attachments/assets/68778112-cc04-47e6-a416-257226d5f604" />
+
+   ensure the access is granted for the Model as here
+   <img width="739" height="364" alt="image" src="https://github.com/user-attachments/assets/6dceb069-54df-4029-8dd6-27ca825335c9" />
+
+
+   
+   
+   
 
 ## Choose your LM Model 
 
