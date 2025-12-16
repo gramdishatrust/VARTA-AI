@@ -38,49 +38,25 @@ This project is mentored by Gram Disha Trust as part of the VARTA (Vital Agroeco
 
 ---
 
-## 🛠️ Installation
-
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/gramdishatrust/VARTA-AI.git
-cd xLM_fine_tuning 
+
 ```
 2. Install Dependencies
-```bash
-pip install -q -U torch tensorboard
-pip install -q -U transformers datasets accelerate evaluate trl sentencepiece huggingface-hub
-```
-Dataset Format
-Required Structure
-```bash
-Your dataset should be in JSONL format with the following structure:
-{
-  "messages": [
-    {
-      "role": "user",
-      "content": "What is natural farming?"
-    },
-    {
-      "role": "assistant",
-      "content": "Natural farming is an agricultural practice that..."
-    }
-  ]
-}
-```
-Example Dataset (nf_dataset.jsonl)
-```bash
-{"messages": [{"role": "user", "content": "How do I make compost?"}, {"role": "assistant", "content": "To make compost, collect organic materials like kitchen scraps, leaves, and grass clippings. Layer them in a bin, keep moist, and turn regularly for aeration."}]}
-{"messages": [{"role": "user", "content": "What is mulching?"}, {"role": "assistant", "content": "Mulching is the practice of covering soil with organic materials like straw, leaves, or wood chips to retain moisture, suppress weeds, and improve soil health."}]}
-{"messages": [{"role": "user", "content": "Best crops for beginners?"}, {"role": "assistant", "content": "For beginners, consider starting with tomatoes, lettuce, radishes, and herbs like basil. These are forgiving and provide quick results."}]}
-```
+## 🛠️ Installation
+As given in [GoogleColab file gemma_3_1b_it_test.ipynb](gemma_3_1b_it_test.ipynb)
+
 🔧 Configuration
 1. Hugging Face Authentication
+
 Option A: Direct Token (Default)
 ```bash
 HF_TOKEN = "hf_your_actual_token_here"
 from huggingface_hub import login
 login(token=HF_TOKEN)
 ```
+
 Option B: Google Colab Secret Vault
 
 Uncomment and use these lines:
