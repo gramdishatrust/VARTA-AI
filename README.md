@@ -48,7 +48,7 @@ git clone https://github.com/gramdishatrust/VARTA-AI.git
 As given in [GoogleColab file gemma_3_1b_it_test.ipynb](gemma_3_1b_it_test.ipynb)
 
 🔧 Configuration
-1. Hugging Face Authentication
+1. HuggingFace Authentication
 
 Option A: Direct Token (Default)
 ```bash
@@ -108,7 +108,11 @@ Copy and paste it into your script
 <img width="1556" height="663" alt="image" src="https://github.com/user-attachments/assets/3cbc2572-2d8d-4137-8dd4-c63ff3e2a740" />
 
 
-11. Run the Spaces Model - in our case this Gradio
+11. Replace the secret key (Spaces --> Settings) - which was generated in Huggingface earlier and used for the Google Colab model in step 1 above. Replace it in the variable HF_TOKEN as given in the app.py file with the same key.
+<img width="1767" height="446" alt="image" src="https://github.com/user-attachments/assets/3cca7995-2b1f-4bc1-a6ee-12cd106f219e" />
+
+    
+13. Run the Spaces Model - in our case this Gradio
     
     
    
