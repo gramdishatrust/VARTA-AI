@@ -111,8 +111,21 @@ Copy and paste it into your script
 11. Replace the secret key (Spaces --> Settings) - which was generated in Huggingface earlier and used for the Google Colab model in step 1 above. Replace it in the variable HF_TOKEN as given in the app.py file with the same key.
 <img width="1767" height="446" alt="image" src="https://github.com/user-attachments/assets/3cca7995-2b1f-4bc1-a6ee-12cd106f219e" />
 
+12. Add these files to the Spaces folder
+    ![app.py](HF_Space/app.py)
+    ![requirements.txt](HF_Space/requirements.txt)
+    <img width="1279" height="561" alt="image" src="https://github.com/user-attachments/assets/660e3a4d-e99b-4476-be7e-d6cd652c6951" />
+
+
+    make sure that the packages are compatible for the spaces. In our case this is gradio
     
-13. Run the Spaces Model - in our case this Gradio
+14. Create a Secret Key and replace the HF_TOKEN variable of app.py in Gradio settings. This must be the same key as was generated for the model and populated in the Colabs as per step 1 "HuggingFace Authentication" above.
+
+   <img width="1774" height="435" alt="image" src="https://github.com/user-attachments/assets/27f46bcc-8de8-4678-ac0f-964dffa7aa3c" />
+
+16. Run the Spaces Model - in our case this Gradio
+<img width="1858" height="881" alt="image" src="https://github.com/user-attachments/assets/a4778728-05ba-40ab-b7d1-4e0c3fbac1a9" />
+
     
     
    
