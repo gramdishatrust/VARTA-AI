@@ -74,17 +74,14 @@ Create a new token with "write" access
 
 Copy and paste it into your script
 
-2. Model Configuration
-```bash
-# Base model from Hugging Face
-base_model = "google/gemma-3-1b-it"
+2. Select GPU in Colab
+   <img width="838" height="784" alt="image" src="https://github.com/user-attachments/assets/8c8b5c2a-6f19-433a-9446-677a33412963" />
 
-# Output directory for fine-tuned model
-output_dir = "./gemma-natural-farming-qa"  # Change as needed
+4. 
 
-# Path to your training data
-data_file = "/content/nf_dataset.jsonl"  # Update with your path
-```
+## Choose your LM Model 
+
+<img width="431" height="242" alt="image" src="https://github.com/user-attachments/assets/fcc746d9-1880-4364-9802-0c0f904ac58f" />
 
 
 
