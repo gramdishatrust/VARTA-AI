@@ -8,7 +8,7 @@ VARTA-AI project demonstrates how to develop and fine-tune Language Models - Sma
 
 ## Background
 This project is mentored by Gram Disha Trust as part of the VARTA (Vital Agroecological Resource Tracking Analytics) framework. The systems architecture of VARTA also links to an Internet of Things (IoT) implementation of VARTA ( VARTA-IoT ). More details at this location - https://gramdisha.org/iot-agritech-smallholders/#:~:text=been%20finalized%20as%3A-,Vital%20Agroecological%20Resource%20Tracking%20Analytics%20(VARTA),-VARTA%20(phonetically%20V%C4%81rt%C4%81
-
+ 
 ---
 
 ## 🚀 Initial Features
@@ -43,7 +43,7 @@ This project is mentored by Gram Disha Trust as part of the VARTA (Vital Agroeco
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/gramdishatrust/VARTA-AI.git
-cd Gemma_fine_tuning 
+cd xLM_fine_tuning 
 ```
 2. Install Dependencies
 ```bash
