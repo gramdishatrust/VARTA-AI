@@ -80,6 +80,11 @@ Copy and paste it into your script
 3. Upload Initial Dataset
    Upload the initial file to Colab File Upload [nf_datasett.jsonl] (nf_datasett.jsonl)
    <img width="579" height="745" alt="image" src="https://github.com/user-attachments/assets/edf7e930-951e-4ebc-8c9c-540db631b414" />
+   ## Choose your LM Model 
+
+<img width="431" height="242" alt="image" src="https://github.com/user-attachments/assets/fcc746d9-1880-4364-9802-0c0f904ac58f" />
+
+
 
 4. Enable Gated Access to Models on Huggingface
    <img width="1465" height="983" alt="image" src="https://github.com/user-attachments/assets/68778112-cc04-47e6-a416-257226d5f604" />
@@ -98,14 +103,17 @@ Copy and paste it into your script
 8. Now create Spaces on Huggingface and use this interface to create the first file in the Space
 <img width="1107" height="487" alt="image" src="https://github.com/user-attachments/assets/d5c9f8b4-6cbe-4be7-866b-cd5e90dde3e6" />
 
-9. Now Link the Spaces with the Model
-   
-   
-   
+9. Now use the file for the Spaces chatbot as![app.py](app.py) and ![requirements.txt](requirements.txt) - move these files also the Spaces on Huggingface.Make sure to modify the Model in the app.py file so that the Model may be linked to the Spaces.
+<img width="1060" height="184" alt="image" src="https://github.com/user-attachments/assets/be14da78-08cc-45bd-affc-23d15ed72642" />
+<img width="1556" height="663" alt="image" src="https://github.com/user-attachments/assets/3cbc2572-2d8d-4137-8dd4-c63ff3e2a740" />
 
-## Choose your LM Model 
 
-<img width="431" height="242" alt="image" src="https://github.com/user-attachments/assets/fcc746d9-1880-4364-9802-0c0f904ac58f" />
+11. Run the Spaces Model - in our case this Gradio
+    
+    
+   
+   
+   
 
 
 
