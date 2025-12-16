@@ -87,7 +87,18 @@ Copy and paste it into your script
    ensure the access is granted for the Model as here
    <img width="739" height="364" alt="image" src="https://github.com/user-attachments/assets/6dceb069-54df-4029-8dd6-27ca825335c9" />
 
+5. Run the Sections on Colab sequentially - it is important not to Run them all together for efficiency reasons. At this stage the dependency libraries will be redundantly installed and the "7. TRAIN AND VALIDATE MODEL" sections takes a lot of compute space and time to Train and Validate the model.
 
+6. As the Epoch loops are configured to 3 choose the checkpoint files for Model based on the least Training Losses as indicated by Colab. In our case it is checkpoint 252
+   <img width="896" height="430" alt="image" src="https://github.com/user-attachments/assets/70441c36-b55d-44c3-bed4-9a3f217e62de" />
+
+7. Download the files from the checkpoint and upload them to Huggingface Model for which these are built. In our case this remains google/gemma-3-1b-it
+   <img width="871" height="169" alt="image" src="https://github.com/user-attachments/assets/515318bf-7962-482d-8d00-a5a651d7a5fd" />
+
+8. Now create Spaces on Huggingface and use this interface to create the first file in the Space
+<img width="1107" height="487" alt="image" src="https://github.com/user-attachments/assets/d5c9f8b4-6cbe-4be7-866b-cd5e90dde3e6" />
+
+9. Now Link the Spaces with the Model
    
    
    
